@@ -25,12 +25,15 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="-32dp"
             tools:listitem="@layout/fragment_recipes" />
 
         <Button
             android:id="@+id/createRecipe"
             android:layout_width="294dp"
             android:layout_height="78dp"
+            android:text="Create Recipe"
             android:layout_marginBottom="32dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -41,11 +44,10 @@
             android:id="@+id/recipeSearch"
             android:layout_width="327dp"
             android:layout_height="53dp"
-            android:layout_marginTop="36dp"
             android:hint="Recipe Search"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="@+id/RecipesView" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

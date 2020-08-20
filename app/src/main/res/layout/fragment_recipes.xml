@@ -17,25 +17,25 @@
 
             <TextView
                 android:id="@+id/recipeViewName"
-                android:layout_width="209dp"
+                android:layout_width="180dp"
                 android:layout_height="46dp"
-                android:layout_marginTop="16dp"
-                android:layout_marginEnd="20dp"
                 android:text="RecipeName"
-                android:textSize="30sp"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/recipeViewImage"
-                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintHorizontal_bias="0.444"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.37" />
 
             <TextView
                 android:id="@+id/recipeViewIngredients"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
                 android:layout_marginEnd="29dp"
                 android:text="Recipe Ingrdients"
-                android:textSize="24sp"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/recipeViewImage"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/recipeViewName" />
