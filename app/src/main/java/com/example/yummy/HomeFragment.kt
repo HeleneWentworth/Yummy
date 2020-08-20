@@ -44,7 +44,6 @@ class HomeFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
-
         auth = Firebase.auth
         binding = DataBindingUtil.inflate(inflater, R.layout.fragment_home, container, false)
         auth.addAuthStateListener { firebaseAuth ->
