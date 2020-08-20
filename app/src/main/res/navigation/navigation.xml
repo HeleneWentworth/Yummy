@@ -70,8 +70,5 @@
         <argument
             android:name="recipeId"
             app:argType="string" />
-        <action
-            android:id="@+id/action_detailsFragment_to_homeFragment2"
-            app:destination="@id/homeFragment" />
     </fragment>
 </navigation>
